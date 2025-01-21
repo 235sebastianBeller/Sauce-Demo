@@ -15,11 +15,11 @@
             "line": 3,
             "name": "I am on the home page",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:8"
+              "location": "src\\test\\steps\\loginSteps.ts:10"
             },
             "result": {
               "status": "passed",
-              "duration": 972768599
+              "duration": 923313599
             }
           },
           {
@@ -28,11 +28,11 @@
             "line": 6,
             "name": "I enter valid \"standard_user\" and \"secret_sauce\"",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:12"
+              "location": "src\\test\\steps\\loginSteps.ts:14"
             },
             "result": {
               "status": "passed",
-              "duration": 204500900
+              "duration": 215775299
             }
           },
           {
@@ -41,11 +41,11 @@
             "line": 7,
             "name": "I click on the login button",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:17"
+              "location": "src\\test\\steps\\loginSteps.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 225750400
+              "duration": 379751699
             }
           },
           {
@@ -54,11 +54,11 @@
             "line": 8,
             "name": "I should be logged in successfully",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:23"
+              "location": "src\\test\\steps\\loginSteps.ts:22"
             },
             "result": {
               "status": "passed",
-              "duration": 6807599
+              "duration": 11800200
             }
           },
           {
@@ -66,7 +66,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1011599
+              "duration": 826600
             }
           }
         ],
@@ -86,11 +86,11 @@
             "line": 3,
             "name": "I am on the home page",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:8"
+              "location": "src\\test\\steps\\loginSteps.ts:10"
             },
             "result": {
               "status": "passed",
-              "duration": 158248199
+              "duration": 198171799
             }
           },
           {
@@ -99,11 +99,11 @@
             "line": 6,
             "name": "I enter valid \"problem_user\" and \"secret_sauce\"",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:12"
+              "location": "src\\test\\steps\\loginSteps.ts:14"
             },
             "result": {
               "status": "passed",
-              "duration": 207609799
+              "duration": 158805000
             }
           },
           {
@@ -112,11 +112,11 @@
             "line": 7,
             "name": "I click on the login button",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:17"
+              "location": "src\\test\\steps\\loginSteps.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 127952700
+              "duration": 174451099
             }
           },
           {
@@ -125,11 +125,11 @@
             "line": 8,
             "name": "I should be logged in successfully",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:23"
+              "location": "src\\test\\steps\\loginSteps.ts:22"
             },
             "result": {
               "status": "passed",
-              "duration": 1385200
+              "duration": 1750599
             }
           },
           {
@@ -137,7 +137,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1152599
+              "duration": 1118999
             }
           }
         ],
@@ -157,11 +157,11 @@
             "line": 3,
             "name": "I am on the home page",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:8"
+              "location": "src\\test\\steps\\loginSteps.ts:10"
             },
             "result": {
               "status": "passed",
-              "duration": 119117699
+              "duration": 84549300
             }
           },
           {
@@ -170,11 +170,11 @@
             "line": 6,
             "name": "I enter valid \"performance_glitch_user\" and \"secret_sauce\"",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:12"
+              "location": "src\\test\\steps\\loginSteps.ts:14"
             },
             "result": {
               "status": "passed",
-              "duration": 101200200
+              "duration": 104648999
             }
           },
           {
@@ -183,12 +183,12 @@
             "line": 7,
             "name": "I click on the login button",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:17"
+              "location": "src\\test\\steps\\loginSteps.ts:18"
             },
             "result": {
               "status": "failed",
-              "duration": 1010094900,
-              "error_message": "locator.click: Timeout 1000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#login-button')\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"submit\" value=\"Login\" id=\"login-button\" name=\"login-button\" data-test=\"login-button\" class=\"submit-button btn_action\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\n    at World.<anonymous> (C:\\Users\\SEBASTIAN\\Documents\\MIS_PROYECTOS\\QATypescript\\src\\test\\steps\\loginSteps.ts:18:51)"
+              "duration": 1020871399,
+              "error_message": "locator.click: Timeout 1000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#login-button')\u001b[22m\n\u001b[2m    - locator resolved to <input type=\"submit\" value=\"Login\" id=\"login-button\" name=\"login-button\" data-test=\"login-button\" class=\"submit-button btn_action\"/>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\n    at LoginPage.clickLoginButton (C:\\Users\\SEBASTIAN\\Documents\\MIS_PROYECTOS\\QATypescript\\src\\test\\pages\\LoginPage.ts:28:74)\n    at World.<anonymous> (C:\\Users\\SEBASTIAN\\Documents\\MIS_PROYECTOS\\QATypescript\\src\\test\\steps\\loginSteps.ts:19:19)"
             }
           },
           {
@@ -197,7 +197,7 @@
             "line": 8,
             "name": "I should be logged in successfully",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:23"
+              "location": "src\\test\\steps\\loginSteps.ts:22"
             },
             "result": {
               "status": "skipped",
@@ -209,7 +209,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 4379235400
+              "duration": 4486347500
             },
             "embeddings": [
               {
@@ -235,11 +235,11 @@
             "line": 3,
             "name": "I am on the home page",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:8"
+              "location": "src\\test\\steps\\loginSteps.ts:10"
             },
             "result": {
               "status": "passed",
-              "duration": 49655499
+              "duration": 93691100
             }
           },
           {
@@ -248,11 +248,11 @@
             "line": 6,
             "name": "I enter valid \"error_user\" and \"secret_sauce\"",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:12"
+              "location": "src\\test\\steps\\loginSteps.ts:14"
             },
             "result": {
               "status": "passed",
-              "duration": 135891700
+              "duration": 107081400
             }
           },
           {
@@ -261,11 +261,11 @@
             "line": 7,
             "name": "I click on the login button",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:17"
+              "location": "src\\test\\steps\\loginSteps.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 97029799
+              "duration": 165373500
             }
           },
           {
@@ -274,11 +274,11 @@
             "line": 8,
             "name": "I should be logged in successfully",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:23"
+              "location": "src\\test\\steps\\loginSteps.ts:22"
             },
             "result": {
               "status": "passed",
-              "duration": 918799
+              "duration": 1048399
             }
           },
           {
@@ -286,7 +286,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 245000
+              "duration": 235500
             }
           }
         ],
@@ -306,11 +306,11 @@
             "line": 3,
             "name": "I am on the home page",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:8"
+              "location": "src\\test\\steps\\loginSteps.ts:10"
             },
             "result": {
               "status": "passed",
-              "duration": 56616100
+              "duration": 73319199
             }
           },
           {
@@ -319,11 +319,11 @@
             "line": 6,
             "name": "I enter valid \"visual_user\" and \"secret_sauce\"",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:12"
+              "location": "src\\test\\steps\\loginSteps.ts:14"
             },
             "result": {
               "status": "passed",
-              "duration": 106878100
+              "duration": 103681800
             }
           },
           {
@@ -332,11 +332,11 @@
             "line": 7,
             "name": "I click on the login button",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:17"
+              "location": "src\\test\\steps\\loginSteps.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 119823700
+              "duration": 134219500
             }
           },
           {
@@ -345,11 +345,11 @@
             "line": 8,
             "name": "I should be logged in successfully",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:23"
+              "location": "src\\test\\steps\\loginSteps.ts:22"
             },
             "result": {
               "status": "passed",
-              "duration": 867999
+              "duration": 1004799
             }
           },
           {
@@ -357,7 +357,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 655100
+              "duration": 796799
             }
           }
         ],
@@ -377,11 +377,11 @@
             "line": 3,
             "name": "I am on the home page",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:8"
+              "location": "src\\test\\steps\\loginSteps.ts:10"
             },
             "result": {
               "status": "passed",
-              "duration": 75558799
+              "duration": 79123000
             }
           },
           {
@@ -390,11 +390,11 @@
             "line": 18,
             "name": "I enter valid \"locked_out_user\" and \"secret_sauce\"",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:12"
+              "location": "src\\test\\steps\\loginSteps.ts:14"
             },
             "result": {
               "status": "passed",
-              "duration": 109148800
+              "duration": 92554699
             }
           },
           {
@@ -403,11 +403,11 @@
             "line": 19,
             "name": "I click on the login button",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:17"
+              "location": "src\\test\\steps\\loginSteps.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 100644100
+              "duration": 108795599
             }
           },
           {
@@ -416,11 +416,11 @@
             "line": 20,
             "name": "I should see the following message \"Sorry, this user has been locked out.\"",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:27"
+              "location": "src\\test\\steps\\loginSteps.ts:26"
             },
             "result": {
               "status": "passed",
-              "duration": 38436699
+              "duration": 48615099
             }
           },
           {
@@ -428,7 +428,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 177900
+              "duration": 218200
             }
           }
         ],
@@ -448,11 +448,11 @@
             "line": 3,
             "name": "I am on the home page",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:8"
+              "location": "src\\test\\steps\\loginSteps.ts:10"
             },
             "result": {
               "status": "passed",
-              "duration": 60609000
+              "duration": 83127200
             }
           },
           {
@@ -461,11 +461,11 @@
             "line": 26,
             "name": "I enter valid \"\" and \"secret_sauce\"",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:12"
+              "location": "src\\test\\steps\\loginSteps.ts:14"
             },
             "result": {
               "status": "passed",
-              "duration": 105250199
+              "duration": 151104600
             }
           },
           {
@@ -474,11 +474,11 @@
             "line": 27,
             "name": "I click on the login button",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:17"
+              "location": "src\\test\\steps\\loginSteps.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 54260399
+              "duration": 106552599
             }
           },
           {
@@ -487,11 +487,11 @@
             "line": 28,
             "name": "I should see the following message \"Username is required\"",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:27"
+              "location": "src\\test\\steps\\loginSteps.ts:26"
             },
             "result": {
               "status": "passed",
-              "duration": 21324099
+              "duration": 24021700
             }
           },
           {
@@ -499,7 +499,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 263800
+              "duration": 223599
             }
           }
         ],
@@ -519,11 +519,11 @@
             "line": 3,
             "name": "I am on the home page",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:8"
+              "location": "src\\test\\steps\\loginSteps.ts:10"
             },
             "result": {
               "status": "passed",
-              "duration": 56372399
+              "duration": 76300999
             }
           },
           {
@@ -532,11 +532,11 @@
             "line": 26,
             "name": "I enter valid \"standard_user\" and \"\"",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:12"
+              "location": "src\\test\\steps\\loginSteps.ts:14"
             },
             "result": {
               "status": "passed",
-              "duration": 94050799
+              "duration": 104581900
             }
           },
           {
@@ -545,11 +545,11 @@
             "line": 27,
             "name": "I click on the login button",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:17"
+              "location": "src\\test\\steps\\loginSteps.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 61850600
+              "duration": 80297300
             }
           },
           {
@@ -558,11 +558,11 @@
             "line": 28,
             "name": "I should see the following message \"Password is required\"",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:27"
+              "location": "src\\test\\steps\\loginSteps.ts:26"
             },
             "result": {
               "status": "passed",
-              "duration": 29455999
+              "duration": 21167499
             }
           },
           {
@@ -570,7 +570,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 428000
+              "duration": 239099
             }
           }
         ],
@@ -590,11 +590,11 @@
             "line": 3,
             "name": "I am on the home page",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:8"
+              "location": "src\\test\\steps\\loginSteps.ts:10"
             },
             "result": {
               "status": "passed",
-              "duration": 65573500
+              "duration": 78317700
             }
           },
           {
@@ -603,11 +603,11 @@
             "line": 26,
             "name": "I enter valid \"\" and \"\"",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:12"
+              "location": "src\\test\\steps\\loginSteps.ts:14"
             },
             "result": {
               "status": "passed",
-              "duration": 88431900
+              "duration": 131668099
             }
           },
           {
@@ -616,11 +616,11 @@
             "line": 27,
             "name": "I click on the login button",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:17"
+              "location": "src\\test\\steps\\loginSteps.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 81669900
+              "duration": 68468299
             }
           },
           {
@@ -629,11 +629,11 @@
             "line": 28,
             "name": "I should see the following message \"Username is required\"",
             "match": {
-              "location": "src\\test\\steps\\loginSteps.ts:27"
+              "location": "src\\test\\steps\\loginSteps.ts:26"
             },
             "result": {
               "status": "passed",
-              "duration": 18831299
+              "duration": 18564000
             }
           },
           {
@@ -641,7 +641,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 246500
+              "duration": 226399
             }
           }
         ],
