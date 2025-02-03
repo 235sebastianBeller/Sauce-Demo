@@ -9,7 +9,8 @@
         ],
         "dryRun": false,
         "require":[
-            "src/test/steps/*.ts"
+            "src/test/steps/*.ts",
+            "src/test/utiles/hooks.ts"
         ]
     }
 }
