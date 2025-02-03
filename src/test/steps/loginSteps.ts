@@ -13,6 +13,7 @@ Before(async function () {
   this.page = page; 
 });
 
+
 //Después de cada escenario
 After(async function () {
   await this.page.close();
