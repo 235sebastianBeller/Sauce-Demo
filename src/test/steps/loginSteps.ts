@@ -16,7 +16,7 @@ Given(/^I enter valid "([^"]*)" and "([^"]*)"$/, async function (username:string
 
 When("I click on the login button", async function () {
   await pageFixture.page.locator("#login-button").click({
-    timeout: 2000
+    timeout: 1000
   });
 });
 
