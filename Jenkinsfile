@@ -8,7 +8,7 @@ pipeline{
             }
                     stage("test"){
                 steps{
-                    'testing the app...'
+                   echo 'testing the app...'
                 }
             }
         }
