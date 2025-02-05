@@ -9,7 +9,7 @@ pipeline{
                     stage("test"){
                 steps{
                     build '''
-                        test -f build/index.html
+                        test -f reports/index.html
                         npm test
                     '''
                 }
