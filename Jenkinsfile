@@ -4,11 +4,12 @@ pipeline{
             stage("build"){
                 steps{
                     echo 'building the app...'
+                 sh 'npm install'  
                 }
             }
                     stage("test"){
                 steps{
-                    build '''
+                    sh '''
                         npm test
                     '''
                 }
